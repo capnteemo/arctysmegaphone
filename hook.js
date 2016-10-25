@@ -11,7 +11,7 @@ if (!process.env.CALLBACK) {
     process.exit(1);
 }
 
-var channelId = process.env.CHID || 'UC1CSCMwaDubQ4rcYCpX40Eg';
+var channelId = process.env.CHID || 'UC9DMp17xNKpDtUL48CgW8PA';
 var topic = 'https://www.youtube.com/xml/feeds/videos.xml?channel_id=' + channelId;
 var hub = 'https://pubsubhubbub.appspot.com/';
 
